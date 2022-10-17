@@ -28,6 +28,8 @@ toolkit:
 deps:
   brew:
   - name: zstd
+  apt_get:
+  - name: zstd
 
 inputs:
 - verbose: "false"
