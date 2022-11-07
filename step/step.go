@@ -16,7 +16,7 @@ const (
 	// Cache key template
 	// OS + Arch: guarantees unique cache per stack (node_modules can contain compiled binaries)
 	// checksum: NPM or Yarn lockfiles
-	key = `{{ .OS }}-{{ .Arch }}-npm-cache-{{ checksum "**/package-lock.json" "**/yarn.lock" }}`
+	key = `{{ .OS }}-{{ .Arch }}-npm-cache-{{ checksum "package-lock.json" "yarn.lock" }}`
 
 	// Cached path
 	path = "node_modules"

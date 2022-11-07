@@ -41,7 +41,7 @@ workflows:
         is_skippable: false
         inputs:
         - key: |-
-            {{ .OS }}-{{ .Arch }}-npm-cache-{{ checksum "**/package-lock.json" "**/yarn.lock" }}
+            {{ .OS }}-{{ .Arch }}-npm-cache-{{ checksum "package-lock.json" "yarn.lock" }}
         - verbose: "true"
     - script:
         title: Install dependencies again
