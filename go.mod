@@ -1,9 +1,9 @@
-module github.com/bitrise-steplib/steps-save-npm-cache
+module github.com/bitrise-steplib/bitrise-step-save-npm-cache
 
 go 1.17
 
 require (
-	github.com/bitrise-io/go-steputils/v2 v2.0.0-alpha.15
+	github.com/bitrise-io/go-steputils/v2 v2.0.0-alpha.18
 	github.com/bitrise-io/go-utils/v2 v2.0.0-alpha.13
 )
 
@@ -15,5 +15,4 @@ require (
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-retryablehttp v0.7.1 // indirect
 	github.com/mitchellh/mapstructure v1.4.3 // indirect
-	golang.org/x/text v0.3.7 // indirect
 )
