@@ -50,6 +50,7 @@ Check out [Workflow Recipes](https://github.com/bitrise-io/workflow-recipes#-key
 | Key | Description | Flags | Default |
 | --- | --- | --- | --- |
 | `verbose` | Enable logging additional information for troubleshooting | required | `false` |
+| `compression_level` | Zstd compression level to control speed / archive size. Set to 1 for fastest option. Valid values are between 1 and 19. Defaults to 3. |  | `3` |
 </details>
 
 <details>
